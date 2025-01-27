@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf61987-e23b-4b97-9b0f-7f5aba08ea5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/go/order/order.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/go/order/order_grpc.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/python/order/order_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen/python/order/order_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taskfile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Taskfile.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sanchir01"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sanchir01&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/makiyarodzy/mahakala_proto.git",
-    "accountId": "28fe96eb-376d-40d2-8e28-4dd31529ffbd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/makiyarodzy/mahakala_proto.git&quot;,
+    &quot;accountId&quot;: &quot;28fe96eb-376d-40d2-8e28-4dd31529ffbd&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -77,7 +75,8 @@
       <workItem from="1737992645784" duration="309000" />
       <workItem from="1737992964917" duration="65000" />
       <workItem from="1737993034874" duration="622000" />
-      <workItem from="1738008047989" duration="95000" />
+      <workItem from="1738008047989" duration="310000" />
+      <workItem from="1738008653685" duration="148000" />
     </task>
     <servers />
   </component>
