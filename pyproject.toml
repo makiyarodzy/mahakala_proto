@@ -1,7 +1,7 @@
 [project]
 name = "mahakala-proto"
 version = "0.1.0"
-description = ""
+description = "mahakala"
 authors = [
     {name = "Sanchir01",email = "emgushovs@mail.ru"}
 ]
