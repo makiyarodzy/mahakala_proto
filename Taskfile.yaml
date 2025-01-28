@@ -12,4 +12,4 @@ tasks:
       - py
     desc: "Generate code python"
     cmds:
-      - poetry run  python -m grpc_tools.protoc -I=proto --python_out=./gen/python --grpc_python_out=./gen/python proto/order/*.proto
+      - poetry run python -m grpc_tools.protoc -I=proto --python_out=./gen/python --grpc_python_out=./gen/python proto/order/*.proto
