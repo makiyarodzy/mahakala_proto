@@ -5,7 +5,7 @@ description = ""
 authors = [
     {name = "Sanchir01",email = "emgushovs@mail.ru"}
 ]
-readme = "README.md"
+readme = "Readme.md"
 requires-python = ">=3.13"
 dependencies = [
     "grpcio-tools (>=1.70.0,<2.0.0)",
