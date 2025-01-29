@@ -3,7 +3,7 @@
 import grpc
 import warnings
 
-from order import order_pb2 as order_dot_order__pb2
+from . import order_pb2 as order_dot_order__pb2
 
 GRPC_GENERATED_VERSION = '1.70.0'
 GRPC_VERSION = grpc.__version__
