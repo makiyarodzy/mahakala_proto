@@ -3,7 +3,7 @@
 import grpc
 import warnings
 
-from . import order_pb2 as order_dot_order__pb2
+from order import order_pb2 as order_dot_order__pb2
 
 GRPC_GENERATED_VERSION = '1.70.0'
 GRPC_VERSION = grpc.__version__
@@ -26,7 +26,9 @@ if _version_not_supported:
 
 
 class OrderStub(object):
-    """Missing associated documentation comment in .proto file."""
+    """import "google/protobuf/timestamp.proto";
+
+    """
 
     def __init__(self, channel):
         """Constructor.
@@ -42,7 +44,9 @@ class OrderStub(object):
 
 
 class OrderServicer(object):
-    """Missing associated documentation comment in .proto file."""
+    """import "google/protobuf/timestamp.proto";
+
+    """
 
     def TelegramOrder(self, request, context):
         """Missing associated documentation comment in .proto file."""
@@ -67,7 +71,9 @@ def add_OrderServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class Order(object):
-    """Missing associated documentation comment in .proto file."""
+    """import "google/protobuf/timestamp.proto";
+
+    """
 
     @staticmethod
     def TelegramOrder(request,

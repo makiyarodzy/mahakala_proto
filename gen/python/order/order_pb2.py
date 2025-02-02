@@ -22,10 +22,9 @@ _runtime_version.ValidateProtobufRuntimeVersion(
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11order/order.proto\x12\x05order\x1a\x1fgoogle/protobuf/timestamp.proto\"\x93\x02\n\x0cOrderMessage\x12\n\n\x02id\x18\x01 \x01(\t\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0c\n\x04slug\x18\x03 \x01(\t\x12.\n\ncreated_at\x18\x04 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12.\n\nupdated_at\x18\x05 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x0f\n\x07version\x18\x06 \x01(\r\x12\r\n\x05price\x18\x07 \x01(\x05\x12\x0e\n\x06images\x18\x08 \x03(\t\x12\x10\n\x08\x63olor_id\x18\t \x01(\t\x12\x13\n\x0b\x63\x61tegory_id\x18\n \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x0b \x01(\t\x12\x0e\n\x06weight\x18\x0c \x01(\x05\"3\n\x0cOrderRequest\x12#\n\x06orders\x18\x01 \x03(\x0b\x32\x13.order.OrderMessage\"\x1b\n\rOrderResponse\x12\n\n\x02ok\x18\x01 \x01(\t2C\n\x05Order\x12:\n\rTelegramOrder\x12\x13.order.OrderRequest\x1a\x14.order.OrderResponseB\x1bZ\x19mahakala.order.v1;orderv1b\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11order/order.proto\x12\x05order\"\x83\x01\n\x0cOrderMessage\x12\r\n\x05title\x18\x01 \x01(\t\x12\r\n\x05price\x18\x02 \x01(\x05\x12\r\n\x05\x63olor\x18\x03 \x01(\t\x12\x12\n\ncategories\x18\x04 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x05 \x01(\t\x12\x0e\n\x06weight\x18\x06 \x01(\x05\x12\r\n\x05\x63ount\x18\x07 \x01(\x05\"3\n\x0cOrderRequest\x12#\n\x06orders\x18\x01 \x03(\x0b\x32\x13.order.OrderMessage\"\x1b\n\rOrderResponse\x12\n\n\x02ok\x18\x01 \x01(\t2C\n\x05Order\x12:\n\rTelegramOrder\x12\x13.order.OrderRequest\x1a\x14.order.OrderResponseB\x1bZ\x19mahakala.order.v1;orderv1b\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -33,12 +32,12 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'order.order_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   _globals['DESCRIPTOR']._loaded_options = None
   _globals['DESCRIPTOR']._serialized_options = b'Z\031mahakala.order.v1;orderv1'
-  _globals['_ORDERMESSAGE']._serialized_start=62
-  _globals['_ORDERMESSAGE']._serialized_end=337
-  _globals['_ORDERREQUEST']._serialized_start=339
-  _globals['_ORDERREQUEST']._serialized_end=390
-  _globals['_ORDERRESPONSE']._serialized_start=392
-  _globals['_ORDERRESPONSE']._serialized_end=419
-  _globals['_ORDER']._serialized_start=421
-  _globals['_ORDER']._serialized_end=488
+  _globals['_ORDERMESSAGE']._serialized_start=29
+  _globals['_ORDERMESSAGE']._serialized_end=160
+  _globals['_ORDERREQUEST']._serialized_start=162
+  _globals['_ORDERREQUEST']._serialized_end=213
+  _globals['_ORDERRESPONSE']._serialized_start=215
+  _globals['_ORDERRESPONSE']._serialized_end=242
+  _globals['_ORDER']._serialized_start=244
+  _globals['_ORDER']._serialized_end=311
 # @@protoc_insertion_point(module_scope)
